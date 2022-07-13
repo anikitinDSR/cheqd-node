@@ -14,8 +14,8 @@ service Msg {
 
 // this line is used by starport scaffolding # proto/tx/message
 message MsgCreateDid {
-  MsgCreateDidPayload payload = 1;
-  repeated SignInfo signatures = 2;
+  msgCreateDidPayload payload = 1;
+  repeated signInfo signatures = 2;
 }
 
 message MsgUpdateDid {
