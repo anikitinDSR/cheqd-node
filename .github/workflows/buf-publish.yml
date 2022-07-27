@@ -7,7 +7,7 @@ defaults:
 jobs:
   buf-build:
     name: "Run buf lint, breaking, build, and push"
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     environment: buf-push
     steps:
       - uses: actions/checkout@v3
