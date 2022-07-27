@@ -7,7 +7,8 @@ defaults:
 jobs:
   buf-build:
     name: "Run buf lint, breaking, build, and push"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-lates
+    environment: buf-push
     steps:
       - uses: actions/checkout@v3
 
@@ -41,6 +42,7 @@ jobs:
 
       - uses: bufbuild/buf-push-action@v1
         with:
+          input: proto
           buf_token: ${{ secrets.BUF_TOKEN }}
 
       # - name: Buf Push
