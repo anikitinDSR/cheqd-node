@@ -1,7 +1,7 @@
 {
     "name": "cheqd-node-api",
     "version": "2.0.2",
-    "description": "Ledger/node API for cheqd network.",
+    "description": "Ledger/node API for cheqd network",
     "license": "Apache-2.0",
     "author": "Cheqd Foundation Limited (https://github.com/cheqd)",
     "homepage": "https://github.com/cheqd/cheqd-node#readme",
