@@ -3,17 +3,17 @@
     "version": "2.0.2",
     "description": "Ledger/node API for cheqd network",
     "license": "Apache-2.0",
-    "author": "Cheqd Foundation Limited (https://github.com/cheqd)",
-    "homepage": "https://github.com/cheqd/cheqd-node#readme",
+    "author": "Cheqd Foundation Limited (https://github.com/anikitinDSR)",
+    "homepage": "https://github.com/anikitinDSR/cheqd-node#readme",
     "bugs": {
-      "url": "https://github.com/cheqd/cheqd-node/issues"
+      "url": "https://github.com/anikitinDSR/cheqd-node/issues"
     },
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/cheqd/cheqd-node.git"
+      "url": "git+https://github.com/anikitinDSR/cheqd-node.git"
     },
     "devDependencies": {
       "@semantic-release/commit-analyzer": "^9.0.2",
