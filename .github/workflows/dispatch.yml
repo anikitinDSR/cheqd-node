@@ -31,9 +31,4 @@ jobs:
     uses: ./.github/workflows/release.yml
     secrets: inherit
   
-  call-release-api:
-    name: "Release API"
-    needs: call-release
-    uses: ./.github/workflows/release-api.yml
-    secrets: inherit
-
+ 
